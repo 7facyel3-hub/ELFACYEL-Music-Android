@@ -1,0 +1,74 @@
+/* تنسيقات عامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* الحاوية الرئيسية */
+.container {
+    max-width: 650px;
+    background: #161b22;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+    border: 1px solid #30363d;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+/* العناوين والنصوص */
+h1 {
+    color: #58a6ff;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #8b949e;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+/* الأزرار التفاعلية */
+.btn {
+    display: inline-block;
+    background-color: #238636;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(35, 134, 54, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2ea043;
+    box-shadow: 0 6px 16px rgba(46, 160, 67, 0.6);
+}
+
+/* تذييل الصفحة */
+footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #484f58;
+}
